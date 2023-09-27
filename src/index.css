@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+@layer base {
+  body {
+    @apply font-roboto;
+  }
+  li{
+    @apply px-5;
+    @apply cursor-pointer;
+  }
+}
