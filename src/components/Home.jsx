@@ -1,31 +1,32 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: false, // Trigger the animation every time
-    threshold: 0.4 // When 50% of the component is in the viewport
-  });
+
+  // const containerVariants = {
+  //   hidden: { opacity: 0, y: 50 },
+  //   visible: { opacity: 1, y: 0, transition: { duration: 0.7 }, ease: [0.12, 0,0.39,0]},
+  // };
 
   const containerVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.7 }, ease: [0.12, 0,0.39,0]},
-  };
-
+    hidden: {opacity: 0, y: 50 },
+    animate :{opacity: 1, y: 0,
+      transition:{
+        delay:0.3,
+    } },
+  }
   return (
     <motion.div
-    className="h-[100vh] bg-[#0a192f] flex flex-col justify-center items-center"
+    className="h-[100vh] max-w-[100vw] bg-[#0a192f] flex flex-col justify-center items-center overflow-hidden"
     name="home"
     >
       {/* container */}
       <motion.section
-            initial="hidden"
-            animate={inView ? 'visible' : 'hidden'}
             variants={containerVariants}
-            ref={ref}
+            initial="hidden"
+            whileInView='animate'
         className="sm:max-w-[50%] md:max-w-[60%] max-w-[80%] flex flex-col gap-1 ml-6 mt-12"
 
       >

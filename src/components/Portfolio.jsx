@@ -15,7 +15,7 @@ function Portfolio() {
         y:0,
         transition:{
             duration:0.001,
-            delay:0.5* index
+            delay:0.05* index
           },
           ease: [0.12, 0,0.39,0]
     }),

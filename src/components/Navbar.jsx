@@ -77,7 +77,6 @@ const navbar = () => {
               <Link to="timeline" smooth={true} duration={1000}  className='hover:text-cyan-300 duration-300 text-lg tracking-wide'>TImeline</Link>
               <Link to="about" smooth={true} duration={1000}  className='hover:text-cyan-300 duration-300 text-lg tracking-wide'>About</Link>
               <Link to="skills" smooth={true} duration={1000}  className='hover:text-cyan-300 duration-300 text-lg tracking-wide'>Skills & Projects</Link>
-              <Link to="projects" smooth={true} duration={1000} className='hover:text-cyan-300 duration-300 text-lg tracking-wide'>Projects</Link>
               <Link to="contact" smooth={true} duration={1000} className='hover:text-cyan-300 duration-300 text-lg tracking-wide'>Contact</Link>
             </ul>
 

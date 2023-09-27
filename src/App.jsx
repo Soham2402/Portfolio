@@ -15,7 +15,7 @@ import Contact from './components/Contact'
 function App() {
 
   return (
-    <div className=' bg-[#0a192f]'>
+    <div className=' bg-[#0a192f] overflow-hidden'>
       <Navbar/>
       <Home />   
       <Timeline />

@@ -1,33 +1,23 @@
-
-
 export default [
     {   
        id:1,  
        title: 'TwoTube: Youtube clone',
-       imgUrl: 'https://images.unsplash.com/photo-1695632844647-d9252f33100d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60',
+       imgUrl: 'https://i.imgur.com/l7Cxt11.png',
        stack: ['React', 'RapidApi', 'Material UI',],
        link: 'https://effortless-kringle-8daf63.netlify.app/',
     },
     {   
         id:2,  
-        title: 'TwoTube: Youtube clone',
-        imgUrl: 'https://images.unsplash.com/photo-1695632844647-d9252f33100d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60',
-        stack: ['React', 'RapidApi', 'Material UI',],
-        link: 'https://effortless-kringle-8daf63.netlify.app/',
+        title: 'SIESDevs',
+        imgUrl: 'https://i.imgur.com/Qlq3liZ.png',
+        stack: ['Django', 'SQLite', 'JS','Bootstrap'],
+        link: 'https://www.youtube.com/watch?v=2CRW44kcrpg',
      }, 
-    {   
-        id:3,  
-        title: 'TwoTube: Youtube clone',
-        imgUrl: 'https://images.unsplash.com/photo-1695632844647-d9252f33100d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60',
-        stack: ['React', 'RapidApi', 'Material UI',],
-        link: 'https://effortless-kringle-8daf63.netlify.app/',
-     },
      {   
-        id:3,  
-        title: 'TwoTube: Youtube clone',
-        imgUrl: 'https://images.unsplash.com/photo-1695632844647-d9252f33100d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60',
-        stack: ['React', 'RapidApi', 'Material UI',],
-        link: 'https://effortless-kringle-8daf63.netlify.app/',
-     },
-
+      id:3,  
+      title: 'Portfolio website',
+      imgUrl: 'https://i.imgur.com/KF6VebZ.png',
+      stack: ['React', 'HTML/CSS', 'Tailwind','Framer Motion'],
+      link: 'https://65140ee56248c208d35af0d5--steady-cheesecake-1ecd2b.netlify.app/',
+   }, 
  ]
