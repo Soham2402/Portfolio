@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
+
 
 const Home = () => {
 
@@ -52,12 +54,14 @@ const Home = () => {
           className="text-[#8892b0] py-3 md:max-w-[700px] max-w-[95%]"
           variants={containerVariants}
         >
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptatem harum
-          quisquam excepturi, quam nulla aperiam veniam assumenda officiis non corporis
-          laborum maxime deleniti nisi natus fuga obcaecati vel quaerat.
+          Hey! Hope you are doing fine! I am currently pursuing my{' '}
+              <span className="text-cyan-300 inline">masters degree in computer science</span> and
+              writing a research paper on scalable systems and architecture. I
+              specialize in building <span className="text-cyan-300 inline">API's</span> and
+              currently I am dipping my toes in <span className="text-cyan-300 inline">microservices</span>
         </motion.p>
 
-        <div>
+        <Link to="projects" smooth={true} duration={1000}>
           <button
             className="text-white hover:text-cyan-300 group border-2 px-6 py-3 my-2 mt-[-5px] md:mt-[0px] flex items-center hover:border-cyan-300"
             variants={containerVariants}
@@ -70,7 +74,7 @@ const Home = () => {
               <HiArrowNarrowRight className="ml-3 hover:tranlate" />
             </span>
           </button>
-        </div>
+        </Link>
       </motion.section>
     </motion.div>
   );

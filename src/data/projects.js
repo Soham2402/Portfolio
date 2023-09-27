@@ -20,4 +20,11 @@ export default [
       stack: ['React', 'HTML/CSS', 'Tailwind','Framer Motion'],
       link: 'https://65140ee56248c208d35af0d5--steady-cheesecake-1ecd2b.netlify.app/',
    }, 
+   {   
+      id:4,  
+      title: 'ChatPDF',
+      imgUrl: 'https://i.imgur.com/6SBdwGE.png',
+      stack: ['Python', 'Streamlit', 'Langchain','OpenAI'],
+      link: 'https://soham2402-chatpdf-app-auu5c6.streamlit.app/',
+   }, 
  ]

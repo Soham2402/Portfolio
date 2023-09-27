@@ -133,12 +133,12 @@ const navbar = () => {
 
           <ul className='fixed md:top-[45%] top-[80%] left-[0%] cursor-pointer z-20 ml-[-12px]'>
             <li>
-              <a href="https://github.com/soham2402" className=' px-5'>
+              <a href="https://github.com/soham2402" target="_blank" rel="noopener noreferrer" className=' px-5'>
                 <VscGithub  className='hover:scale-125 duration-300' color='cyan' size='1.9em' />
               </a>
               </li>
             <li>
-            <a href="/">
+            <a href="https://www.linkedin.com/in/soham-s-hegde-343870229/" target="_blank" rel="noopener noreferrer">
               <GrLinkedin className='hover:scale-125 duration-300' color='cyan' size='1.9em' />
               </a>
             </li>
