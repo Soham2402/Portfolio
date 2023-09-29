@@ -67,7 +67,8 @@ const navbar = () => {
     <div className=' z-20'>
       <div className="fixed w-full h-[80px] flex justify-between items-center bg-[#0a192f] text-gray-300 px-6 md:px-8 ">
           <div className='z-10 cursor-pointer'>
-            <h1 className='text-3xl font-bold text-cyan-300'>S H</h1>
+            <img src="https://i.imgur.com/6QFEArr.png" alt="SH" className=' w-[6rem] pl-[-2em]' />
+            {/* <h1 className='text-3xl font-bold text-cyan-300'>S H</h1> */}
           </div>
 
         {/* menu */}
